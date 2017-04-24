@@ -125,3 +125,14 @@ header select, input {
 .selection, .grandboutton {
     width: 50%;
 }
+
+
+
+.first {
+  width: 98%;
+}
+
+.first figure {
+  display: flex;
+
+}
