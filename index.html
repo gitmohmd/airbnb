@@ -1,132 +1,256 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>location de vacance, logements experience et lieux Airbnb</title>
-  </head>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="images/airbnb.ico">
+      <title>location de vacance, logements experience et lieux Airbnb</title>
+    </head>
 
-    <body>
+      <body>
 
-     <!-- header -->
+      <!-- <~~~~~~~~~~~~~~~~~~~~~~ haeder ~~~~~~~~~~~~~~~~~~~~~~> -->
 
-       <header>
+         <header>
 
-         <nav>
-          <img src="imag/airbnb/Airbnb_phone.png" alt="logo airbnb">
-           <ul>
-             <li><a href="#">devenez hote</a></li>
-             <li><a href="#">Aide</a></li>
-             <li><a href="#">inscription</a></li>
-             <li><a href="#">connexion</a></li>
-           </ul>
-         </nav>
+           <nav>
+            <img src="imag/airbnb/Airbnb_phone.png" alt="logo airbnb">
+             <ul>
+               <li><a href="#">devenez hote</a></li>
+               <li><a href="#">Aide</a></li>
+               <li><a href="#">inscription</a></li>
+               <li><a href="#">connexion</a></li>
+             </ul>
+           </nav>
 
-           <div class="header">
-              <h1 id="red">ou souhitez vous allez</h1>
-              <h1 class="big">votre prochain voyage</h1>
-              <h1  class="big">commence sur airbnb</h1>
-         </div>
-      </header>
+             <div class="header">
+                <h1 id="red">ou souhitez vous allez</h1>
+                <h1 class="big">votre prochain voyage</h1>
+                <h1  class="big">commence sur airbnb</h1>
+           </div>
+        </header>
 
-      <section>
-            <div class="divrecherche">
-                <form class="recherche" action="index.html" method="post">
-                    <label for="ou">Où</label>
-                    <input type="text" id="ou" name="ou" value="Partout">
+        <!-- <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ body ~~~~~~~~~~~~~~~~~~~~~~~~~~~> -->
+     <main>
+
+        <section>
+              <div class="divrecherche">
+                  <form class="recherche" action="index.html" method="post">
+                      <label for="ou">Où</label>
+                      <input type="text" id="ou" name="ou" value="Partout">
+                  </form>
+                  <form class="date">
+                      <label for="Date">Quand</label>
+                      <input type="text" id="date" name="Quand" value="Date indifferente">
                 </form>
-                <form class="date">
-                    <label for="Date">Quand</label>
-                    <input type="text" id="date" name="Quand" value="Date indifferente">
-              </form>
-              <div class="nbvoyageur">
-                <div class="selection">
-                <label for="voyageur1">Voyageur</label>
-                <span class="custom-dropdown custom-dropdown--white">
-                <select class="voyageur" name="voyageur">
+                <div class="voyage">
+                  <div class="selection">
+                  <label for="voyageur1">Voyageur</label>
+                  <span class="custom-dropdown custom-dropdown--white">
+                  <select class="voyageur" name="voyageur">
 
-                <option id="voyageur1" value="voyageur1">1voyageur</option>
-              </select>
-            </span>
+                  <option id="voyageur1" value="voyageur1">1voyageur</option>
+                </select>
+              </span>
+              </div>
+              <div class="bigbutton">
+              <button type="button" name="button">Rechercher</button>
             </div>
-            <div class="grandboutton">
-            <button type="button" name="button">Rechercher</button>
-          </div>
+                </div>
+
               </div>
 
-            </div>
+              <nav class="menu2">
+                  <ul>
+                      <li><a href="#">RECOMMANDE</a></li>
+                      <li><a href="#">LOGEMENT</a></li>
+                      <li><a href="#">EXPERIENCES</a></li>
+                      <li><a href="#">LIEUX</a></li>
+                  </ul>
+              </nav>
+          </section>
+          <section class="first">
 
-            <nav class="menu2">
-                <ul>
-                    <li><a href="#">RECOMMANDE</a></li>
-                    <li><a href="#">LOGEMENT</a></li>
-                    <li><a href="#">EXPERIENCES</a></li>
-                    <li><a href="#">LIEUX</a></li>
-                </ul>
-            </nav>
-        </section>
 
 
-         <section class="first">
-            <figure>
-              <img src="imag/airbnb/figure1.jpg" alt="">
+
+                <figure>
+
+                <figcaption>
+                <img  class="pc" src="images/pc/gal1-photo1.pc.jpg" alt="">
+                <!-- <img class="tablette" src="images/tab/gal1-photo1.tab.jpg" alt=""> -->
+                <!-- <img class="phone" src="images/phone/gal1-photo1.phone.jpg" alt=""> -->
+
+                  <!-- <p><em>24€</em>
+                  connect with nature under canopy</p> -->
+
+                </figcaption>
+              </figure>
+                <figure>
+                <figcaption>
+                <img class="pc" src="images/pc/gal1-photo2.pc.jpg" alt="">
+                </figcaption>
+                </figure>
+                  <figure>
+                <figcaption>
+                <img class="pc" src="images/pc/gal1-photo3.pc.jpg" alt="">
+                </figcaption>
+                </figure>
+                  <figure>
+                <figcaption>
+                <img class="pc" src="images/pc/gal1-photo4.pc.jpg" alt="">
+                </figcaption>
+              </figure>
+
+              <figure>
+
+                <figcaption>
+                <img class="pc" src="images/pc/gal1-photo5.pc.jpg" alt="">
+                </figcaption>
+              </figure>
+           </section>
+           <br>
+           <br>
+           <br>
+
+           <section class="second">
+             <figure>
+              <figcaption>
+
+               <img class="pc" src="images/pc/gal2-photo1.pc.jpg" alt="">
+              </figcaption>
+            </figure>
+              <figure>
+
+               <figcaption>
+
+               <img class="pc" src="images/pc/gal2-photo2.pc.jpg" alt="">
+
+               </figcaption>
+             </figure>
+               <figure>
+              <figcaption>
+               <img class="pc" src="images/pc/gal2.photo3.pc.jpg" alt="">
+              </figcaption>
             </figure>
             <figure>
-              <img src="imag/airbnb/figure2.jpg" alt="">
-            </figure>
-            <figure>
-              <img src="imag/airbnb/figure3.jpg" alt="">
-            </figure>
-            <figure>
-              <img src="imag/airbnb/figure4.jpg" alt="">
-            </figure>
-            <figure>
-              <img src="imag/airbnb/figure5.jpg" alt="">
-            </figure>
-         </section>
 
-         <section class="second">
-           <figure>
-             <img src="imag/airbnb/figure6.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure7.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure8.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure9.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure10.jpg" alt="">
-           </figure>
-         </section>
+              <figcaption>
+               <img class="pc" src="images/pc/gal2-photo4.pc.jpg" alt="">
+               </figcaption>
+             </figure>
+             <figure>
 
-         <section class="third">
-           <figure>
-             <img src="imag/airbnb/figure11LA.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure12TKO.jpg/" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure13PRS.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure14FRZ.jpg" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure15SF.jpg/" alt="">
-           </figure>
-           <figure>
-             <img src="imag/airbnb/figure16LON.jpg" alt="">
-           </figure>
-         </section>
+               <figcaption>
+               <img class="pc" src="images/pc/gal2-photo5.pc.jpg" alt="">
+               </figcaption>
+             </figure>
+           </section>
+           <br>
+           <br>
+           <br>
 
-         <div class="">
 
-         </div>
+           <section class="third">
+            <figcaption>
+               <img class="pc" src="images/pc/gal3-photo1.pc.jpg" alt="">
+              </figcaption>
+               <figcaption>
+               <img class="pc" src="images/pc/gal3-photo2.pc.jpg/" alt="">
+              </figcaption>
+               <figcaption>
+               <img class="pc" src="images/pc/gal3-photo3.pc.jpg" alt="">
+              </figcaption>
 
-  </body>
-</html>
+           </section>
+           <br><br><br>
+
+         <section class="fourth">
+
+              <figcaption>
+               <img class="pc" src="images/pc/gal4-photo1.pc.jpg" alt="">
+              </figcaption>
+              <figcaption>
+               <img class="pc" src="images/pc/gal4-photo2.pc.jpg/" alt="">
+               </figcaption>
+               <figcaption>
+               <img class="pc" src="images/pc/gal4-photo3.pc.jpg" alt="">
+              </figcaption>
+               <figcaption>
+               <img class="pc" src="images/pc/gal4-photo4.pc.jpg" alt="">
+              </figcaption>
+            <figcaption>
+               <img class="pc" src="images/pc/gal4-photo5.pc.jpg" alt="">
+              </figcaption>
+              <figcaption>
+               <img class="pc" src="images/pc/gal5-photo6.pc.jpg" alt="">
+               </figcaption>
+           </section>
+           <br><br><br>
+
+           <section class="last">
+      <div class="fifth">
+        <p class="partie1"><em>Ouvrez la porte à un voyageur et à une nouvelle vie</em></p>
+        <p class="partie2">Complétez vos revenus en accueillant des voyageurs.</p>
+        <button type="button" name="button">Estimer vos revenus</button>
+
+      </div>
+      <div class="image">
+        <img src="images/pc/revenus.pc.jpg" alt="Photo">
+
+      </div>
+    </section>
+
+
+
+<!-- <~~~~~~~~~~~~~~~~~~~~~~~ footer~~~~~~~~~~~~~~~~~~~~~~~~~~~> -->
+
+     <footer>
+        <section class="pied">
+        <div  class="selecteur">
+          <select class="langue" name="langues">
+            <option value="FRANCAIS">FRANCAIS</option>
+            <option value="ANGLAIS">ANGLAIS</option>
+          </select>
+          <select class="devise" name="devise">
+            <option value="EURO">EUR</option>
+
+          </select>
+        </div>
+        <div class="Airbnb">
+          <h3>Airbnb</h3>
+          <ul>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Carrieres</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Régles</a></li>
+            <li><a href="#">Aide</a></li>
+            <li><a href="#">Diversité et integration</a></li>
+          </ul>
+
+        </div>
+
+        <div class="Découvrir">
+          <h3>Découvrir</h3>
+          <ul>
+            <li><a href="#">Confiance et sécurité</a></li>
+            <li><a href="#">Credit voyage</a></li>
+            <li><a href="#">Airbnb Citizen</a></li>
+            <li><a href="#">Voyage d'affaires</a></li>
+            <li><a href="#">Guides</a></li>
+          </ul>
+
+        </div>
+        <div class="Hébergement">
+          <h3>Hébergements</h3>
+          <ul>
+            <li><a href="#">pour qui etre hote</a></li>
+            <li><a href="#">hospitalite</a></li>
+            <li><a href="#">hebergement</a></li>
+            <li><a href="#">responsable</a></li>
+          </ul>
+
+        </main>
+    </body>
+  </html>
