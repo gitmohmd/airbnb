@@ -129,10 +129,43 @@ header select, input {
 
 
 .first {
-  width: 98%;
+  width: 100%;
+  display: flex;
 }
 
 .first figure {
   display: flex;
+}
 
+.first figure img {
+  width: 20%;
+  flex:2;
+}
+
+
+.second {
+   width: 98%;
+   display: flex;
+}
+
+.second figure {
+   display: flex;
+}
+.second figure img {
+  width: 20%;
+  flex:1;
+}
+
+.third {
+    width: 98%;
+    display: flex;
+}
+
+.third figure {
+  display: flex;
+}
+
+.third figure img {
+  width: 17%;
+  flex:1;
 }
